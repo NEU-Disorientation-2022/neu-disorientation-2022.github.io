@@ -6,7 +6,7 @@ description: > # Meta description of Homepage
   Northeastern University.
 url: "https://disorientation.nu/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
-default_year: 2020
+default_year: 2022
 
 tagline: >
   A resource guide for student organizing and social justice issues at

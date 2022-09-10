@@ -39,6 +39,16 @@ layout: compress
           {% endfor %}
         </div>
       {% endif %}
+      {% assign title_length = page.title | size %}
+      {% if title_length > 100 %}
+      <style>
+      @media only screen and (max-device-width: 480px) {
+        .hero__wrap .hero__title {
+          font-size: 1.4em;
+        }
+      }
+      </style>
+      {% endif %}
       <h1 class="hero__title">{{ page.title }}</h1>
       <p class="hero__meta">
         <span>
